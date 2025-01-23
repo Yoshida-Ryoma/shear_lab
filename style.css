@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+}
+
+.body {
+    background-color: rgb(227, 227, 227);
+}
+
+header {
+    background: linear-gradient(to right, white 75%, #ADFC93);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.haeder__button>button {
+    width: 260px;
+    height: 64px;
+    border-radius:60px;
+    margin-left: 20px;
+    font-size: 32px;
+    color: black;
+    font-style: none;
+}
+
+button {
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__input {
+    width: 378px;
+    height: 60px;
+    border: 0.5px solid black;
+    border-radius:60px;
+    margin-left: 30px;
+}
+
+form>.header__form {
+    position: relative;
+    text-align: center;
+}
+
+form>.header__form>a {
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    top: 15px;
+    margin-left: -105px;
+}
+
+.title__login {
+    color: #0945DB;
+}
+
+.container {
+    display: flex;
+    align-items: center;    /* 垂直方向に中央揃え */
+    height: 100vh;          /* コンテナの高さを画面全体に設定 */
+  }

@@ -7,30 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="title__login">
-            <p>N高グループ生徒専用の<br>
-                ポートフォリオ共有サイト</p>
-            <img src="img/logo.png" alt="ロゴ">
-        </div>
-        <div class="input">
-            <form action="/submit" method="POST">
-                <label for="name">ID<br></label>
-                <input type="id" id="id" name="id" required>
-                
-                <br>
+    <div class="body">
+        <div class="container">
+            <div class="title__login">
+                <p>N高グループ生徒専用の<br>
+                    ポートフォリオ共有サイト</p>
+                <img src="img/logo.png" alt="ロゴ">
+            </div>
+            <div class="input">
+                <form action="/submit" method="POST">
+                    <label for="ID">ID<br></label>
+                    <input type="id" id="id" name="id" required>
+                    
+                    <br>
 
-                <label for="email">Password<br></label>
-                <input type="password" id="password" name="password" required>
-                
-                <br>
+                    <label for="password">Password<br></label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <br>
 
-                <button>ログイン</button>
+                    <button class="input__button">ログイン</button>
 
-                <br>
-                
-                <a href=""><button>新規アカウント作成</button></a>
-              </form>
+                    <br>
+                    
+                    <a href=""><button class="input__button">新規アカウント作成</button></a>
+                </form>
+            </div>
         </div>
     </div>
 </body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="body">
+            <img src="img/logo.png" alt="ロゴ">
+            <div class="container">
+                <div class="input__sginin">
+                    <p class title_><B>新規アカウント作成</B></p>
+                    <form action="/submit" method="POST">
+                        <label for="name">名前(本名)<br></label>
+                        <input type="name" id="name" name="name" required>
+                        <br>
+                        <label for="slack_name">学園ワークスペースのSlack名<br></label>
+                        <input type="slack_name" id="slack_name" name="slack_name" required>
+                        <br>
+                        <label for="id">ID<br></label>
+                        <input type="id" id="id" name="id" required>
+                        <br>
+                        <label for="password">Password<br></label>
+                        <input type="password" id="password" name="password" required>
+                        <br>
+                        <a href=""><button class="input__button"><b>アカウントを作成する</b></button></a>
+                    </form>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

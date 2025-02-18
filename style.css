@@ -281,3 +281,11 @@ header>ul>li>form>div>a{
     border-radius: 30px;
 }
 
+.photo>button {
+    margin-top: 20px;
+    width: 104px;
+    height: 104px;
+    background-color: white;
+    border-radius: 50px;
+}
+

@@ -1,232 +1,283 @@
 body {
     margin: 0px;
+    background-color: #E3E3E3;
+}
+
+p {
+    margin: 0px;
 }
 
 a {
-    color: black;
+    margin: 0px;
     text-decoration:none;
 }
 
-.body {
-    background-color: rgb(227, 227, 227);
-}
-
-header {
-    background: linear-gradient(to right, white 75%, #ADFC93);
-}
-
-header {
-    display: flex;
-    width: 100%;
-    height: auto;
-}
-
-.haeder__button>button {
-    width: 260px;
-    height: 64px;
-    border-radius:60px;
-    margin-left: 20px;
-    font-size: 32px;
-    color: black;
-    font-style: none;
-}
-
-button {
-    background-color: white;
-    border: 0.5px solid black;
-}
-
-.header__list {
-    display: flex;
+ul {
     list-style: none;
 }
 
-.header__input {
-    width: 378px;
-    height: 60px;
-    border: 0.5px solid black;
-    border-radius:60px;
-    margin-left: 30px;
+li {
+    margin: 0px;
 }
 
-form>.header__form {
-    position: relative;
-    text-align: center;
-}
-
-form>.header__form>input {
-    font-size: 45px;
-}
-
-form>.header__form>a {
-    font-size: 30px;
-    transform: translate(-50%,-50%);
-    top: 15px;
-    margin-left: -105px;
-}
-
-.title__login {
-    color: #0945DB;
-    font-size: 15px;
-}
-
-.input__login>form>label {
-    font-size: 30px;
-    margin-top: 10px;
-}
-
-.input__login>form>input {
-    width: 500px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: whitesmoke;
-    margin-top: 10px;
-}
-
-.input__login {
-    margin-left: 50px;
-    color: #0945DB;
-}
-
-.input__login>form>button {
-    background-color: whitesmoke;
-    border: none;
-    width: 80px;
-    height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 10px;
-    color: #0945DB;
-}
-
-.input__login>form>a>button {
-    background-color: whitesmoke;
-    border: none;
-    width: 150px;
-    height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 10px;
-    color: #0945DB;
+label {
+    margin: 0px;
 }
 
 .container {
     display: flex;
-    justify-content: center;/* 水平方向に中央揃え */
-    align-items: center;    /* 垂直方向に中央揃え */
-    height: 100vh;          /* コンテナの高さを画面全体に設定 */
-  }
+    justify-content: center;
+    align-items: center;
+}
 
-.input__sginin>p {
+.main__font {
+    font-size: 50px;
+}
+.sub__font {
     font-size: 30px;
-  }
+}
 
-.input__sginin>form>label {
+header {
+    background-image: url(img/長方形\ 1.png);
+}
+
+header>img {
+    margin-right: 327px;
+}
+
+header>ul>li>button>a {
+    color: black;
+}
+
+header>ul>li>button {
+    width: 260px;
+    height: 84px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+header>ul>li>form>div>input {
+    padding-left: 21px;
     font-size: 30px;
-    margin-top: 10px;
+    width: 290px;
+    height: 80px;
+    border-radius: 50px;
 }
 
-.input__sginin>form>a>button {
-    background-color: whitesmoke;
-    border: none;
-    width: 150px;
-    height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 20px;
-    color: #0945DB;
+header>ul>li>form>div>a{
+    margin-left: -100px;
+    font-size: 30px;
 }
 
-.input__sginin>form>input {
-    width: 500px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: whitesmoke;
-    margin-top: 10px;
+.portfolio__count {
+    padding-left: 176px;
+    padding-top: 122px;
+    padding-bottom: 122px;
 }
 
-.input__sginin {
-    margin-top: -400px;
+.button__1>.item, .button__2>.item {
+    padding-left: 48px;
+    padding-top: 45px;
 }
 
-.button1, .button2 {
+.item__1>.button__1,.item__1>.button__2, .item__2>.button__1,.item__2>.button__2 {
     width: 798px;
     height: 689px;
+    background-color: white;
     border-radius: 30px;
-    background-color: white;
-    background-size: 798px 689px;
+    border: 0.5px solid black;
 }
 
-.button2 {
-    margin-left: 50px;
+.item__1>.button__2, .item__2>.button__2 {
+    margin-left: 90px;
 }
 
-.button1>img, .button2>img {
-    width: 700px;
-    height: 397.89px;
-    padding-top: 71px;
-    padding-left: 49px;
+.item>.sub__font {
+    color: #6b6b6b;
 }
 
-.button1>.name, .button2>.name {
-    margin: 49px;
-    font-size: 50px;
-    padding-left: 49px;
-    margin: 0px;
-}
-
-.button1>.title, .button2>.title {
-    margin: 49px;
-    font-size: 30px;
-    padding-left: 49px;
-    margin: 0px;
-}
-
-.tag__1{
-    margin: 49px;
-}
-
-.tag__1, .tag__2 {
-    margin-top: 0px;
+.item>button {
     width: 128px;
-    height: 59px;
-    border-radius: 50px;
+    height: 60px;
     background-color: #A6FC89;
+    border-radius: 50px;
 }
 
-.portfolio {
+.item__list>.item__1, .item__list>.item__2 {
+    padding-bottom: 101px;
+}
+
+.change__button>button {
+    width: 84px;
+    height: 84px;
     background-color: white;
+    border: 0.5px solid black;
+    border-radius: 100px;
+}
+
+.about {
+    padding-left: 271px;
+    padding-right: 264px;
+}
+
+.about>.title {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.about>.text__1 {
+    padding-bottom: 117px;
+}
+
+
+.about>button {
+    margin-top: 108px;
+    margin-bottom: 241px;
+    margin-left: 828px;
+    margin-right: 112px;
+    width: 709px;
+    height: 157px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.use {
+    padding-left: 271px;
+    padding-right: 264px;
+}
+
+.use>.title {
+    padding-bottom: 119px;
+}
+
+.use>.text__1 {
+    padding-bottom: 105px;
+}
+
+.use>.text__2 {
+    padding-bottom: 192px;
+}
+
+.use>.text__4, .use>.text__5 {
+    padding-bottom: 126px;
+}
+
+.post {
+    padding-left: 454px;
+}
+
+.post>.main__font {
+    padding-left: 311px;
+}
+
+.post__file>div {
+    background-color: white;
+    width: 1012.73px;
+    height: 343.53px;
+    border-radius: 30px;
+}
+
+.post__file>div>button {
+    margin-left: 363px;
+    margin-top: 140px;
+    width: 286.27px;
+    height: 62.91px;
+    background-color: #A6FC89;
+    border-radius: 10px;
+}
+
+.post__title>div>input {
+    width: 1012.73px;
+    height: 83.36px;
+    border-radius: 30px;
+}
+
+.post__comment>div>textarea {
+    width: 1012.73px;
+    height: 209.36px;
+    border-radius: 30px;
+}
+
+.post__tag>div {
+    width: 1012.73px;
+    height: 503.36px;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 95px;
+}
+
+.post__tag>div>div {
+    padding-top: 63px;
+}
+
+.post__tag>div>div>input {
+    color: black;
+}
+
+.post__tag>div>div>button {
+    width: 281px;
+    height: 54px;
+    background-color: #969696 ;
+    color: white;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.post__tag>div>button {
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: white;
+    border: 0.5 solid black;
+    border-radius: 50px;
+    width: 118px;
+    height: 54px;
+}
+
+.portfolio>button {
+    width: 104px;
+    height: 104px;
+    background-color: white;
+    border-radius: 60px;
+    margin-left: 107px;
+    margin-top: 40px;
+}
+
+.portfolio>div {
     width: 1706px;
     height: 858px;
+    background-color: white;
     border-radius: 30px;
+    margin: 107px;
 }
 
-.portfolio>.portfolio__detail {
-    margin-left: 32px;
-    background-color: white;
+.portfolio__menu>.menu {
+    margin-left: 79px;
     width: 587px;
     height: 762px;
-    border: 1px solid black;
+    background-color: white;
+    border-radius: 30px;
+    border: 0.5px solid black;
+}
+
+.menu>.main__font {
+    padding-left: 60px;
+    padding-right: 85px;
+    padding-top: 55px;
+}
+
+.menu>.sub__font {
+    padding-inline: 50px;
+}
+
+.menu>button {
+    margin-left: 33px;
+    margin-bottom: 20px;
+    width: 128px;
+    height: 59px;
+    background-color: #ADFC93;
     border-radius: 30px;
 }
 
-.portfolio__detail>.title {
-    font-size: 50px;
-    padding-left: 53.5px;
-    padding-right: 53.5px;
-}
-
-.portfolio__detail>.explanation {
-    font-size: 30px;
-    padding-left: 48px;
-    padding-right: 48px;
-}
-
-.portfolio__detail>.date {
-    font-size: 30px;
-    padding-left: 337px;
-    padding-top: 111px;
-    padding-right: 48px;
-}

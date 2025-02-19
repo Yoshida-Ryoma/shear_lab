@@ -379,3 +379,63 @@ header>ul>li>form>div>a{
     width: 465px;
     height: 263.89px;
 }
+
+.input__sginin>form>hr {
+    border: 0px;
+    margin: 0px;
+    height: 70px;
+    background-color: #E3E3E3;
+}
+
+.input__sginin>form>input {
+    width: 575px;
+    height: 61px;
+    border-radius: 30px;
+}
+
+.input__sginin>form>a>button {
+    align-items: center;
+    margin-top: 65px;
+    width: 264px;
+    height: 61px;
+    font-size:20px;
+    color: #0945DB;
+    background-color: white;
+    border-radius: 30px;
+    border-color: white;
+}
+
+.log__in {
+    padding-top: 385px;
+}
+
+.log__in>.login__right {
+    padding-left: 176px;
+}
+
+.log__in>.login__left>p, .log__in>.login__right>form>.box>label, .log__in>.login__right>form>.button__list>button {
+    color: #0945DB;
+}
+
+.log__in>.login__right>form>.box>input {
+    width: 575px;
+    height: 61px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.log__in>.login__right>form>.button__list>.button__1 {
+    width: 126px;
+    height: 61px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 70px;
+}    
+
+.log__in>.login__right>form>.button__list>.button__2 {
+    width: 234px;
+    height: 61px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 19px;
+}

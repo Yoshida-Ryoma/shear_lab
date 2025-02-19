@@ -289,3 +289,63 @@ header>ul>li>form>div>a{
     border-radius: 50px;
 }
 
+.user__page {
+    padding-top: 54px;
+}
+
+.user__detail {
+    width: 855px;
+    height: 650px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.user__detail>.main__font {
+    padding-top: 96px;
+    padding-left: 95px;
+}
+
+.user__detail>.font__list {
+    padding-top: 145px;
+    padding-left: 95px;
+}
+
+.user__detail>button {
+    margin-top: 59px;
+    margin-left: 59px;
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.setting__portfolio {
+    padding-left: 54px;
+    padding-top: 48px;
+}
+
+.setting__portfolio>p {
+    padding-left: 62px;
+    padding-bottom: 24px;
+}
+
+.setting__img {
+    width: 722px;
+    height: 524px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.setting__img>img {
+    padding-top: 58px;
+    padding-left: 86px;
+    padding-bottom: 30px;
+    width: 550.11px;
+    height: 312.7px;
+}
+
+.setting__img>p {
+    padding-left: 86px;
+}
+
+

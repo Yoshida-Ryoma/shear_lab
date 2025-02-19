@@ -348,4 +348,34 @@ header>ul>li>form>div>a{
     padding-left: 86px;
 }
 
+.user__list>div>.portfolio__detail {
+    display: flex;
+    align-items: center;
+    padding-left: 175px;
+    padding-top: 130px;
+    padding-bottom: 35px;
+}
 
+.user__list>div>.portfolio__detail>button {
+    width: 226px;
+    height: 100px;
+    background-color: #A6FC89;
+    border-radius: 50px;
+}
+
+.user__list>div>.portfolio__detail>p {
+    padding-left: 35px;
+}
+
+.portfolio__list{
+    width: 1631px;
+    height: 489px;
+    margin-inline: 144.5px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.item>ul>li>img {
+    width: 465px;
+    height: 263.89px;
+}

@@ -87,12 +87,13 @@ header>ul>li>button {
     width: 300px;
     height: 80px;
     border-radius: 50px;
+    margin-left: 20px;
 }
 
 .portfolio__count {
-    padding-left: 176px;
-    padding-top: 122px;
-    padding-bottom: 122px;
+    padding-left: 231.332px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .button__1>.item, .button__2>.item {

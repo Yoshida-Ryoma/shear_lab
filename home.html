@@ -11,23 +11,25 @@
         <img src="img/logo.png" alt="logo" style="width: 300px; height: auto;">
         <ul class="header__list container">
             <li class="haeder__button"><button><a href="" class="sub__font">Home</a></button></li>
+            <li class="header__button"><button><a href="" class="sub__font">about</a></button></li>
             <li class="haeder__button"><button><a href="about.html" class="sub__font">Share</a></button></li>
-            <li class="header__form">
-                <form>
-                    <div class="header__form">
-                        <input type="text" class="header__input">
-                        <a>検索...</a>
-                    </div>
-                </form>
-            </li>
         </ul>
     </header>
-    <div class="container">
-        <p class="portfolio__count sub__font"></p>
-        <button onclick="sortList()">昇順</button>
-        <button onclick="sortlist()">絞り込み</button>
-    </div>
-    <p class="portfolio__count sub__font">00件のポートフォリオ</p>
+    <div class="container home__serch">
+        <div class="serch__form">
+            <form action="">
+                <div>
+                    <input type="text" class="header__input">
+                    <button>検索</button>
+                </div>
+            </form>
+        </div>
+        <div class="container serch__button">
+            <p class="portfolio__count sub__font"></p>
+            <button onclick="sortList()"></button>
+            <button onclick="sortList()" style="margin-left: 20px;"></button>
+        </div>
+    </div>  
     <div class="item__list">
         <div class="item__1 container">
             <div class="button__1">

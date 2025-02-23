@@ -1,15 +1,8 @@
-@media (max-width: 600px) {
-    header {
-        background-size: 390px 82px;
-    }
-
+@media (min-width: 601px) {
     header>img {
-        padding-left: 20px;
-        width: 150.72px;
-        height: 58.01px;
+        width: 93.75px;
+        margin-right: 102.1875px;
     }
-
-    
   }
 
 body {
@@ -73,17 +66,27 @@ header>ul>li>button {
     margin-right: 21px;
 }
 
-header>ul>li>form>div>input {
-    padding-left: 21px;
+.home__serch {
+    padding-top: 50px;
+}
+
+.serch__form>form>div>input {
     font-size: 30px;
-    width: 290px;
+    width: 500px;
     height: 80px;
     border-radius: 50px;
 }
 
-header>ul>li>form>div>a{
-    margin-left: -100px;
+.serch__form>form>div>button {
+    border: 0px;
+    background-color: #E3E3E3;
     font-size: 30px;
+}
+
+.serch__button>button {
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
 }
 
 .portfolio__count {
